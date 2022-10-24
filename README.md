@@ -1,6 +1,6 @@
 # ITH Programs
 ### Program Description
-This program implements the method described by Gavish et al.[6] to find the Intra-tumoral Heterogeneity (ITH) expression programs. The initial objects were a log normalized cell expression matrices with rows as genes and cells as columns.
+This program implements the method described by Gavish et al.[1] to find the Intra-tumoral Heterogeneity (ITH) expression programs. The initial objects were a log normalized cell expression matrices with rows as genes and cells as columns.
 
 1. For each one of our patient's cell expression matrices, we ran 7 different NMF
 by using a k ranging from 5 to 11.
@@ -16,4 +16,4 @@ The clustering method is described in the figure:
 
 
 
-
+[1]. A. Gavish et al., “The transcriptional hallmarks of intra-tumor heterogeneity across a thousand tumors,” Cancer Biology, preprint, Dec. 2021. doi: 10.1101/2021.12.19.473368.
